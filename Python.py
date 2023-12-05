@@ -1,3 +1,6 @@
 import time
+import random
 
-time.sleep(5)
+
+x = random.randint(1,5)
+time.sleep(x)
