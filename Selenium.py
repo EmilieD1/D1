@@ -1,13 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-# Set the path to the webdriver executable (make sure to download the appropriate driver for your browser)
 webdriver_path = '/path/to/your/webdriver'
-
-# Create a new instance of the Chrome webdriver (you can use other webdrivers like Firefox as well)
 driver = webdriver.Chrome(executable_path=webdriver_path)
-
-# Open Google in the browser
 driver.get("https://www.google.com")
 
 # Find the search input element using its name attribute value
