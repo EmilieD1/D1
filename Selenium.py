@@ -13,9 +13,5 @@ search_input.send_keys("Your search query")
 
 # Press Enter to perform the search
 search_input.send_keys(Keys.RETURN)
-
-# Wait for a few seconds to see the results (you can use WebDriverWait for more precise waiting)
 driver.implicitly_wait(5)
-
-# Close the browser window
 driver.quit()
