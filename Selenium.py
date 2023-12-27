@@ -7,11 +7,7 @@ driver.get("https://www.google.com")
 
 # Find the search input element using its name attribute value
 search_input = driver.find_element("name", "q")
-
-# Input the search query (replace "Your search query" with your actual search query)
 search_input.send_keys("Your search query")
-
-# Press Enter to perform the search
 search_input.send_keys(Keys.RETURN)
 driver.implicitly_wait(5)
 driver.quit()
